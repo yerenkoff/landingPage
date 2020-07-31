@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("blur.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  line-height: 70px;
+}
+
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  color: #222;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Work Sans', sans-serif;
+  color: #222;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  color: #222;
+  text-align: center;
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  color: #222;
+  line-height: 30px;
+}
+
+a {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.menu {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  font-size: 0;
+}
+
+.menu a {
+  font-size: 16px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 50px;
+  padding: 0 10px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-bottom: 2px solid transparent;
+}
+
+.menu a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.banner {
+  background: url("banner.jpg");
+  -webkit-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  overflow: hidden;
+  padding: 0 30px;
+}
+
+.banner h2 {
+  color: #fff;
+  margin: 100px auto 50px;
+  font-size: 60px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.banner p {
+  color: #fff;
+  text-align: right;
+  margin-bottom: 50px;
+  width: 50%;
+  float: right;
+  background: -webkit-gradient(linear, left top, right top, from(transparent), to(rgba(0, 0, 0, 0.6)));
+  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.6));
+  border-radius: 10px;
+  padding: 40px 40px 40px 200px;
+}
+
+.banner a {
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  padding: 5px 10px;
+  margin: auto;
+  margin-bottom: 100px;
+  display: block;
+  width: 200px;
+  clear: both;
+  line-height: 40px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 20px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.banner a:hover {
+  background: rgba(255, 255, 255, 0.4);
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  font-size: 21px;
+}
+
+.aboutUs {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  overflow: hidden;
+  padding: 0 30px;
+  font-size: 0;
+}
+
+.aboutUs h2 {
+  line-height: 70px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.aboutUs section {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.aboutUs section h3 {
+  line-height: 30px;
+  margin: 20px 0;
+  color: #222;
+  font-size: 18px;
+}
+
+.aboutUs section p {
+  font-size: 16px;
+  padding-right: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #555;
+}
+
+.aboutUs img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.factory {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  clear: both;
+}
+
+.factory h2 {
+  line-height: 70px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 50px;
+}
+
+.factory h4 {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.factory .country {
+  display: inline-block;
+  width: 25%;
+  margin: 0 10px;
+  padding: 50px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.factory .country h3 {
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+
+.factory .country ul {
+  font-family: 'Work Sans', sans-serif;
+  color: #222;
+  line-height: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  margin: 30px 0;
+}
+
+.factory .country ul li {
+  list-style: none;
+}
+
+.factory .country a {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  color: #222;
+  line-height: 40px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0px 30px;
+  font-weight: 600;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.factory .country a:hover {
+  background: rgba(255, 255, 255, 0.9);
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.factory .country:nth-of-type(1) {
+  background-image: url("https://www.telegraph.co.uk/content/dam/Travel/2019/September/nz.jpg?imwidth=450");
+}
+
+.factory .country:nth-of-type(2) {
+  background-image: url("https://www.dw.com/image/52023310_303.jpg");
+}
+
+.factory .country:nth-of-type(3) {
+  background-image: url("https://www.lifeinnorway.net/wp-content/uploads/2020/06/reine-summer-holiday.jpg");
+}
+
+.team {
+  text-align: center;
+}
+
+.team h2 {
+  line-height: 70px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.team .member {
+  width: 300px;
+  display: inline-block;
+  margin: 0 20px 40px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.team .member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 0 20px;
+}
+
+.team .member h4 {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.team .member p {
+  text-align: left;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.team .member a {
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  color: #222;
+  line-height: 40px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0px 30px;
+  font-weight: 600;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.team .member a:hover {
+  background: rgba(255, 255, 255, 0.9);
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.contacts {
+  margin-top: 100px;
+}
+
+.contacts h2 {
+  line-height: 70px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 50px;
+}
+
+.contacts p {
+  text-align: center;
+}
+
+.contacts form {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.contacts form input {
+  line-height: 40px;
+  display: block;
+  width: 400px;
+  margin: 10px auto;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border: 0;
+  outline: none;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.contacts form textarea {
+  display: block;
+  width: 400px;
+  margin: 10px auto;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border: 0;
+  outline: none;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.contacts form button {
+  border: 0;
+  margin: 20px auto;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  color: #222;
+  line-height: 40px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0px 30px;
+  font-weight: 600;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.contacts form button:hover {
+  background: rgba(255, 255, 255, 0.9);
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+/*# sourceMappingURL=style.css.map */
